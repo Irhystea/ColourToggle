@@ -3,25 +3,6 @@
     box-sizing: border-box;
 }
 
-#menuImage{
-    width: 3rem;
-    margin: 1rem;
-}
-
-#menuSelection{
-    list-style: none;
-    padding: 0;
-    margin: 1rem;
-}
-
-.displayOff{
-    display: none;
-}
-
-#menuSelection li{
-    padding: 1rem;
-}
-
 .home-background{
     background-color: rgb(190, 190, 190);
 }
@@ -41,10 +22,3 @@
 .Green-background{
     background-color: green;
 }
-
-
-
-
-/* body {
-    background-color: blue;
-} */
