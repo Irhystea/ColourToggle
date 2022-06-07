@@ -31,11 +31,15 @@
 #menu-items{
     list-style: none;
     padding: 0;
+    border: 2px solid white;
     margin: 1rem;
+
+    width: 15rem;
 }
 
 #menu-items li{
-    padding: 1rem 0;
+    padding: 1rem;
+    margin: 0;
 }
 
 .menu-display{
