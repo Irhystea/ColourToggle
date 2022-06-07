@@ -19,9 +19,12 @@ greenButton.classList.add('green-background');
 purpleButton.classList.add('purple-background');
 
 //Button Colours
+
 homeButton.addEventListener('click', function(){
     console.log("Background Gray")
     document.body.classList.add('home-background');
+    document.body.classList.remove('red-background', 'orange-background', 'green-background', 'purple-background');
+
     menuItems.classList.toggle('menu-display');
     return;
 });
@@ -29,6 +32,8 @@ homeButton.addEventListener('click', function(){
 redButton.addEventListener('click', function(){
     console.log("Background Red");
     document.body.classList.add('red-background');
+    document.body.classList.remove('orange-background', 'green-background', 'purple-background');
+
     menuItems.classList.toggle('menu-display');
     return;
 });
@@ -36,6 +41,7 @@ redButton.addEventListener('click', function(){
 orangeButton.addEventListener('click', function(){
     console.log("Background Orange")
     document.body.classList.add('orange-background');
+    document.body.classList.remove('green-background', 'purple-background');
     menuItems.classList.toggle('menu-display');
     return;
 });
@@ -43,6 +49,7 @@ orangeButton.addEventListener('click', function(){
 greenButton.addEventListener('click', function(){
     console.log("Background Green")
     document.body.classList.add('green-background');
+    document.body.classList.remove('purple-background');
     menuItems.classList.toggle('menu-display');
     return;
 });
