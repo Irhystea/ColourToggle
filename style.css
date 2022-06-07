@@ -3,12 +3,12 @@
     box-sizing: border-box;
 }
 
-#menuImage{
+#menu-image{
     width: 3rem;
     margin: 1rem;
 }
 
-#menuSelection{
+#menu-selection{
     list-style: none;
     padding: 0;
     margin: 1rem;
@@ -18,8 +18,13 @@
     display: none;
 }
 
-#menuSelection li{
+#menu-selection li{
     padding: 1rem;
+}
+
+#menu-selection a{
+    text-decoration: none;
+    color: black;
 }
 
 .home-background{
