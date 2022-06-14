@@ -29,17 +29,17 @@
 }
 
 #menu-items{
-    list-style: none;
-    padding: 0;
+    padding: 1rem;
     border: 2px solid white;
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
 
     width: 15rem;
 }
 
-#menu-items li{
+#menu-items label{
     padding: 1rem;
-    margin: 0;
 }
 
 .menu-display{
